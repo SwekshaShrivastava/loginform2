@@ -1,0 +1,88 @@
+body{
+    background-image: url(images1/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic{
+    width: 6.5%;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+.loginbox p{
+    font-weight: bold;
+}
+
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    padding-bottom: 25px;
+}
+
+.btn {
+    background: #FFFFFF;
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #120f12;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #1f1b1f;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 4px;
+    text-decoration: none;
+    padding: 0px 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .btn:hover {
+    background: #C69B7B;
+    background-image: -webkit-linear-gradient(top, #C69B7B, #826F66);
+    background-image: -moz-linear-gradient(top, #C69B7B, #826F66);
+    background-image: -ms-linear-gradient(top, #C69B7B, #826F66);
+    background-image: -o-linear-gradient(top, #C69B7B, #826F66);
+    background-image: linear-gradient(to bottom, #C69B7B, #826F66);
+    text-decoration: none;
+  }
+a{
+ font-family:'Montserrat', sans-serif;
+ font-weight: bold;
+}
+  a:hover{
+    color: #FFFFFF;
+  }
